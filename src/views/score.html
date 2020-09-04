@@ -19,16 +19,16 @@
 		</header>
 		<main>
     <embed name="CatSound" src="../sound/meow.mp3" loop="infinite" hidden="true" autostart="true">
-      <div class="navigation"><button class="btn"><i class="fa fa-home"></i> Home</button>
+      <div class="navigation"><a href="index.html"><button class="btn"><i class="fa fa-home"></i> Home</button></a>
       <button class="btn"><i class="fa fa-close"></i> Close</button>
       </div>
       <div class="score_board">
         <label for="score">Score:</label>
-        <input type="text" class="score_screen" value="" disabled>
+        <input type="text" class="score_screen" id="score" value="" disabled>
       </div>
 				<div class="cards_container">
 					<div class="card">
-					<div class="card_image"><img src="../images/options/cat1.jpg" alt="kitten">
+					<div class="card_image"><img src="../images/options/cat1.jpg" alt="kitten" id="cat" class="cat">
 					</div>
 					<div class="card_label"><p>Cat</p>
 					</div>
