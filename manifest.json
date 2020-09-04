@@ -1,0 +1,20 @@
+{
+    "name": "Learn With Fun",
+    "short_name": "FunLearn",
+    "icons": [
+        {
+            "src": "images/icons/funlearn.jpg",
+            "sizes": "840x613",
+            "type": "image/jpg"
+        },
+        {
+            "src": "images/icons/funlearn1.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFF",
+    "theme_color": "#123557"
+}
