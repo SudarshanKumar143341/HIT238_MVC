@@ -2,7 +2,7 @@
   "name": "Learn With Fun",
   "version": "1.0.0",
   "description": "A project to encourage learning with fun and entertainment.",
-  "main": "src/index.html",
+  "main": "src/views/index.html",
   "scripts": {
     "build": "gulp",
     "watch": "gulp watch",
