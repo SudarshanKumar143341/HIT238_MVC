@@ -2,3 +2,44 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
+* {
+     box-sizing: border-box;
+  }
+h1,h2{
+  text-align: center;
+}
+
+  .cards_container {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+    }
+
+  .card_label p {
+        font-size: 18px;
+        text-align: center;
+     }
+
+   .card{
+     background:
+       display: grid;
+       grid-template-rows: max-content 200px 1fr;
+     }
+     .card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    }
+
+    .card_image{
+      margin:10px;
+    }
+     @media screen and (max-width: 600px) {
+        .card {
+           width: 100%;
+        }
+        .card img{
+          width:100%;
+          height: 100%;
+        }
+     }
