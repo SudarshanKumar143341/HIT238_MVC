@@ -31,6 +31,7 @@ function random_bg_color() {
         return color;
   }
 document.body.style.background = random_bg_color();
+document.querySelectorAll("")
 
 
   var txts = document.querySelectorAll(".card_label"), i;
