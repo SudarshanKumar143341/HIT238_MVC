@@ -18,7 +18,7 @@ function random_bg_color() {
         return color;
   }
 document.body.style.background = random_bg_color();
-document.querySelectorAll("")
+//document.querySelectorAll("")
 
 
   var txts = document.querySelectorAll(".card_label"), i;
@@ -36,3 +36,14 @@ document.querySelectorAll("")
     colorcode = "#" + colorcode;
     return colorcode;
   }
+/*
+var openWindow;
+  document.querySelector(".toddler").addEventListener("click", function(){
+     openWindow=window.open('../views/quiz1.html');
+  })
+
+
+
+document.querySelector(".close").addEventListener("click", function(){
+  openWindow.close();
+})*/
