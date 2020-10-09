@@ -18,16 +18,9 @@ body{
 	color: #333;
   font-weight: 300;
   text-align: center;
-  background-color: #f8f6f0;
+
 }
-h1{
-  font-weight: 300;
-  margin: 0px;
-  padding: 10px;
-  font-size: 20px;
-  background-color: #444;
-  color: #fff;
-}
+
 .question{
   font-size: 30px;
   margin-bottom: 10px;

@@ -34,7 +34,7 @@
       }
     );
 
-    // finally combine our output list into one string of HTML and put it on the page
+    // combining output list to string of html
     quizContainer.innerHTML = output.join('');
   }
 
