@@ -18,6 +18,7 @@ var urlsToCache = [
   '/src/views/index.html',
   '/src/views/quiz1.html',
   '/src/views/quiz2.html',
+  '/src/views/ycquiz.html',
   '/src/js/quiz.js',
   '/src/js/start.js',
   '/src/styles/style.css',
