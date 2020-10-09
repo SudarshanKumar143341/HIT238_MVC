@@ -4,7 +4,7 @@
     // variable to store the HTML output
     const output = [];
 
-    // for each question...
+    // for each question from https://www.sitepoint.com/simple-javascript-quiz/
     myQuestions.forEach(
       (currentQuestion, questionNumber) => {
 
