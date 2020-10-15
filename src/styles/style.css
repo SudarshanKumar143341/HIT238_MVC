@@ -20,7 +20,15 @@ body{
   text-align: center;
 
 }
-
+.btn_close{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin:5px;
+}
 .question{
   font-size: 30px;
   margin-bottom: 10px;
