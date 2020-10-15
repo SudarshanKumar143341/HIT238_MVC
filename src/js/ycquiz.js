@@ -3,7 +3,7 @@
   function buildQuiz(){
     // variable to store the HTML output
     const output = [];
-
+    document.body.style.background="#F5F6CE";
     // for each question from https://www.sitepoint.com/simple-javascript-quiz/
     myQuestions.forEach(
       (currentQuestion, questionNumber) => {
