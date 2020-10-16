@@ -9,6 +9,9 @@ h1,h2{
   text-align: center;
 }
 
+h1{
+  background-color: white;
+}
 /* CSS from sitepoint.com https://www.sitepoint.com/simple-javascript-quiz/*/
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 
